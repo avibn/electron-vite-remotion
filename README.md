@@ -2,7 +2,7 @@
 
 An example project combining Electron, Vite, and Remotion for building video applications.
 
-![Electron + Remotion demo](.github\images\screenshot.png)
+![Electron + Remotion demo](.github/images/screenshot.png)
 
 ## 🛫 Quick Setup
 
