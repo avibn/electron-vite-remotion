@@ -32,12 +32,14 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh;
 }
 
 h1 {
-  font-size: 3.2em;
   line-height: 1.1;
+}
+
+p {
+  margin: 0 0;
 }
 
 button {

@@ -1,4 +1,8 @@
-import { renderMedia, selectComposition } from "@remotion/renderer";
+import {
+  renderMedia,
+  RenderMediaOnProgress,
+  selectComposition,
+} from "@remotion/renderer";
 import { app, shell } from "electron";
 import log from "electron-log/main";
 import os from "os";
@@ -118,7 +122,10 @@ if (app.isPackaged) {
  * @param inputProps - The input props for the composition.
  * @returns A Promise that resolves when the video rendering is complete.
  */
-export default async function render(inputProps: Record<string, unknown>) {
+export default async function render(
+  inputProps: Record<string, unknown>,
+  onProgress?: RenderMediaOnProgress
+) {
   const compositionId = "HelloWorld";
 
   const bundleLocation = path.join(app.getAppPath(), "out/remotion-bundle");
@@ -150,6 +157,7 @@ export default async function render(inputProps: Record<string, unknown>) {
     outputLocation: downloadsFolderPath,
     inputProps,
     binariesDirectory,
+    onProgress,
   });
   log.info(`Video rendered: ${compositionId}.mp4`);
 

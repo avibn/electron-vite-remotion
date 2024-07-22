@@ -7,7 +7,9 @@ ipcMain.handle(
   async (event, inputProps: Record<string, unknown> = {}) => {
     try {
       log.info("Rendering media...");
-      await render(inputProps);
+      await render(inputProps, (progress) => {
+        event.sender.send("RENDER_PROGRESS", progress);
+      });
       return true;
     } catch (error) {
       log.error("Failed to render media:", error);
