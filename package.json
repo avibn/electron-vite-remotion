@@ -22,7 +22,7 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@remotion/bundler": "4.0.182",
+    "@remotion/bundler": "4.0.189",
     "@remotion/cli": "^4.0.182",
     "@remotion/player": "4.0.182",
     "@remotion/renderer": "4.0.182",
