@@ -24,7 +24,7 @@
     "react-dom": "^18.2.0",
     "@remotion/bundler": "4.0.182",
     "@remotion/cli": "^4.0.182",
-    "@remotion/player": "4.0.182",
+    "@remotion/player": "4.0.189",
     "@remotion/renderer": "4.0.182",
     "@remotion/zod-types": "^4.0.182",
     "electron-log": "^5.1.5",
