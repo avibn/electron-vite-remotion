@@ -22,14 +22,14 @@
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "@remotion/bundler": "4.0.182",
-    "@remotion/cli": "^4.0.182",
-    "@remotion/player": "4.0.182",
-    "@remotion/renderer": "4.0.182",
-    "@remotion/zod-types": "^4.0.182",
+    "@remotion/bundler": "4.0.252",
+    "@remotion/cli": "4.0.252",
+    "@remotion/player": "4.0.252",
+    "@remotion/renderer": "4.0.252",
+    "@remotion/zod-types": "4.0.252",
     "electron-log": "^5.1.5",
     "electron-updater": "^6.1.8",
-    "remotion": "^4.0.182"
+    "remotion": "4.0.252"
   },
   "devDependencies": {
     "@playwright/test": "^1.42.1",
