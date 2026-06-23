@@ -29,7 +29,7 @@
     "@remotion/zod-types": "4.0.252",
     "electron-log": "^5.1.5",
     "electron-updater": "^6.1.8",
-    "remotion": "4.0.252"
+    "remotion": "4.0.410"
   },
   "devDependencies": {
     "@playwright/test": "^1.42.1",
